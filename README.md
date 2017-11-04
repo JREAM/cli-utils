@@ -5,6 +5,13 @@ to quicken things up.
 
 Each folder is a category which you can do what you like with.
 
+## Metasyntactic Names
+These are used For Reference Examples wherever they may be needed.
+```
+foo bar baz quz quux corge uier
+grault garply waldo fred plugh
+thud mos henk def
+```
 
 ## Docker CLI
 
