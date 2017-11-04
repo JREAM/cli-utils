@@ -1,9 +1,17 @@
-# Docker CLI
+# CLI Utils
+
+These are general CLI Utils used by myself in bash
+to quicken things up.
+
+Each folder is a category which you can do what you like with.
+
+
+## Docker CLI
 
 This is a utility script for allowed you to work with docker easier;
 At the moment, most specifically, micro-services.
 
-# Usage
+### Usage
 
 At this moment, the only file `boot.sh` should be placed alongside
 a set of several docker-servers, here is a folder example:
