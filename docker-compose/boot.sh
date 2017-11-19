@@ -128,19 +128,19 @@ case $cmd in
     CMD='docker-compose down && docker-compose up --build -d'
     ;;
   'upbuild'|'ub')
-    CMD='loop docker-compose up --build -d'
+    CMD='docker-compose up --build -d'
     ;;
   'build'|'b')
-    CMD='loop docker-compose build'
+    CMD='docker-compose build'
     ;;
   'down'|'d')
-    CMD='loop docker-compose down'
+    CMD='docker-compose down'
     ;;
   'images'|'i')
-    CMD='loop docker-compose images'
+    CMD='docker-compose images'
     ;;
   'kill'|'k')
-    CMD='loop docker-compose kill'
+    CMD='docker-compose kill'
     ;;
   'log'|'logs'|'l')
     CMD='docker-compose logs'
